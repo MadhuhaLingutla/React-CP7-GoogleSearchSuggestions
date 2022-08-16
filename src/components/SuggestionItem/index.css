@@ -1,0 +1,24 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.suggestion-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+}
+
+.suggestion {
+  color: #475569;
+  font-size: 15px;
+}
+.arrow-image {
+  height: 20px;
+  width: 20px;
+}

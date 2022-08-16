@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.google-image {
+  height: 100px;
+  width: 300px;
+}
+.results-container {
+  width: 300px;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px 0px #bfbfbf;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.search-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.search-bar {
+  border: none;
+}
+.suggestions-container {
+}
